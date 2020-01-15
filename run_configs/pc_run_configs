@@ -1,0 +1,37 @@
+# Learning Rate and Schedule Config ---
+
+lr_initial = 1e-4  # initial learning rate
+constrain lr_schedule :: FIXED, DECAY
+lr_schedule = DECAY
+lr_schedule_decay_interval = 20  # 20 for KITTI_Stereo, 2 for KITTI_General
+lr_schedule_decay_rate = 0.1
+lr_schedule_decay_staircase = True
+
+
+# Additional Parameters
+
+arch = 'res_shallow'
+kernel_size = 3
+constrain optimizer :: ADAM, MOMENTUM, SGD
+optimizer = ADAM
+optimizer_momentum = 0.9  # momentum to use if optimizer == MOMENTUM
+arch_param__k = 24
+arch_param__non_linearity = 'relu'
+arch_param__fc = 64
+regularization_factor = None
+learn_pad_var = False
+use_centers_for_padding = True  # if given, use centers[0] for padding
+
+
+
+
+
+
+
+
+
+
+
+
+
+
