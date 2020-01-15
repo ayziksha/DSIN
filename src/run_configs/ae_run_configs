@@ -44,7 +44,7 @@ file_path_test = 'KITTI_stereo_test.txt' # Name of test.txt file
 
 
 # Additional Parameters
-
+beta = 500
 arch = 'CVPR'
 arch_param_B = 5
 num_chan_bn = 32
