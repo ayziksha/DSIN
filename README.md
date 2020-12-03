@@ -2,18 +2,21 @@
 
 ![alt text](fig/Teaser.png) 
 
-DSIN (Decoder Side Information Network) is the TensorFlow implementation of *Deep Image Compression using Decoder Side Information*
+DSIN (Decoder Side Information Network) is the TensorFlow implementation of *Deep Image Compression using Decoder Side Information*, published in ECCV 2020.
 
 [[Paper]](http://arxiv.org/abs/2001.04753)
 
 ### Citation
 If you find our work useful in your research, please cite:
 ```
-@article{ayzik2020deep,
-  title={Deep Image Compression using Decoder Side Information},
-  author={Sharon Ayzik and Shai Avidan},
-  journal={arXiv preprint arXiv:2001.04753},
-  year={2020}
+@inproceedings{ayzikA2020dsin,
+  author    = {Sharon Ayzik and Shai Avidan},
+  title     = {Deep Image Compression Using Decoder Side Information},
+  booktitle = {Computer Vision - {ECCV} 2020 - 16th European Conference, Glasgow,
+               UK, August 23-28, 2020, Proceedings, Part {XVII}},
+  volume    = {12362},
+  pages     = {699--714},
+  year      = {2020}
 }
 ```
 ## Abstract
