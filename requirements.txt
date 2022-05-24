@@ -1,4 +1,4 @@
-tensorflow-gpu==1.11.0
+tensorflow-gpu==2.6.4
 imageio==2.5.0
 matplotlib==3.0.3
 numpy==1.15.2
